@@ -7,8 +7,20 @@ body{
     font-family: av;
 }
 
-.piclogo{
+.logo1{
     width: 250px;
+}
+
+.logo2{
+    width: 400px;
+}
+
+.logo3{
+    width: 480px;
+}
+
+.logo4{
+    width: 320px;
 }
 
 @media all and (max-width:575px) {
