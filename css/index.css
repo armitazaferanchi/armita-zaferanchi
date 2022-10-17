@@ -32,6 +32,15 @@ body{
     height: 500px;
 }
 
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.footerfont{
+    font-size: 11px;
+}
+
 @media all and (min-width:576px) {
     .bg{
         background-image: url("../images/bg2.jpg");
