@@ -7,6 +7,31 @@ body{
     font-family: av;
 }
 
+.fixed{
+    height: 106px;
+}
+
+.honorlogo{
+    width: 80px;
+}
+
+.baricon{
+    width: 24px;
+    height: 1px;
+}
+
+#offcanvasTop{
+    top: 107px;
+}
+
+.noafter::after{
+    display: none;
+}
+
+.font1{
+    font-size: 8px;
+}
+
 .logo{
     width: 300px;
 }

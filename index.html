@@ -18,16 +18,299 @@
 <body>
 
  <div class="container-fluid">
-  <div class="row">
+  <div class="row position-fixed w-100">
 
-    <div class=" bg-black text-white col-12 py-1 d-xl-flex justify-content-center ">
+     <div class=" bg-black text-white col-12 py-1 d-xl-flex justify-content-center ">
       <span class="d-block"> Select your country or region: </span>
       <a class="text-white ms-xl-3" href="#">Stay on current site</a>
       <a class="text-white ms-3 " href="#">Select another site</a>
+     </div>
+
+     <div class="col-12 d-flex justify-content-between align-items-center border-bottom bg-white">
+      <img class="honorlogo m-3" src="images/logo.png">
+      <div class="d-flex align-items-center">
+       <i class="bi bi-search text-black"></i>
+
+       <div class="mx-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+        <span class=" baricon d-block bg-black "></span>
+        <span class=" baricon d-block bg-black mt-2 "></span>  
+       </div>  
+
+       <div class=" bar offcanvas offcanvas-top h-100 w-100 bg-white "  data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+         <div class="offcanvas-body">        
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item border-0 border-bottom">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Phones
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-center">
+                 <div class=" d-flex flex-wrap justify-content-center">
+                  <div class="col-2 d-sm-none offset"></div>
+                  <div class="col-3 col-sm-2">
+                   <img class="w-100 mb-2" src="images/HONORX85G.png">
+                   <p> HONOR X8 5G </p>
+                  </div>
+                  <div class="col-2 col-sm-1 offset"></div>
+                  <div class="col-3 col-sm-2">
+                   <img class="w-100 mb-2" src="images/HONOR70Pro.png">
+                   <p> HONOR 70 Pro </p>
+                  </div>
+                  <div class="col-2 col-sm-1 offset"></div>
+                  <div class="col-3 col-sm-2">
+                    <img class="w-100 mb-2" src="images/HONOR70.png">
+                    <p> HONOR 70 </p>
+                  </div>
+                  <div class="col-2 col-sm-1 offset"></div>
+                  <div class="col-3 col-sm-2">
+                   <img class="w-100 mb-2" src="images/HONOR70Pro+.png">
+                   <p> HONOR 70 Pro+ </p>
+                  </div>
+                 </div>
+                 <div class="d-flex flex-column align-items-center">
+                  <div class="d-flex">
+                    <i class="me-2 bi bi-grid text-black"></i>
+                    <p> More Products </p>
+                  </div>
+                  <div class="d-flex ">
+                    <i class="me-2 bi bi-arrows-angle-contract text-black"></i>
+                    <p> Compare </p>
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item  border-0 border-bottom">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Laptops
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-center">
+                  <div class=" d-flex flex-wrap justify-content-center">
+                   <div class="col-2 d-sm-none offset"></div>
+                   <div class="col-3 col-sm-2">
+                    <img class="w-100 mb-2" src="images/laptop1.png">
+                    <span class="font1 text-primary"> New </span>
+                    <p> HONOR MagicBook 14 2022 RTX 2050 </p>
+                   </div>
+                   <div class="col-2 col-sm-1 offset"></div>
+                   <div class="col-3 col-sm-2">
+                    <img class="w-100 mb-2" src="images/laptop1.png">
+                    <span class="font1 text-primary"> New </span>
+                    <p> HONOR MagicBook 14 2022 </p>
+                   </div>
+                   <div class="col-2 col-sm-1 offset"></div>
+                   <div class="col-3 col-sm-2">
+                     <img class="w-100 mb-2" src="images/laptop2.png">
+                     <span class="font1 text-primary"> New </span>
+                     <p> HONOR MagicBook X 15 2022 </p>
+                   </div>
+                   <div class="col-2 col-sm-1 offset"></div>
+                   <div class="col-3 col-sm-2">
+                    <img class="w-100 mb-2" src="images/laptop2.png">
+                    <span class="font1 text-primary"> New </span>
+                    <p>HONOR MagicBook X 14 2022 </p>
+                   </div>
+                  </div>
+                  <div class="d-flex flex-column align-items-center">
+                   <div class="d-flex">
+                     <i class="me-2 bi bi-grid text-black"></i>
+                     <p> More Products </p>
+                   </div>
+                  </div>
+                 </div>
+              </div>
+            </div>
+
+            <div class="accordion-item  border-0 border-bottom">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Tablets
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-center">
+                  <div class=" d-flex flex-wrap justify-content-center">
+                    <div class="col-2 col-md-3 offset"></div>
+                    <div class="col-3 col-md-2">
+                     <img class="w-100" src="images/tablet1.png">
+                     <span class="font1 text-primary"> New </span>
+                     <p> HONOR Pad X8 Lite </p>
+                    </div>
+                    <div class="col-2 col-md-2 offset"></div>
+                    <div class="col-3 col-md-2">
+                     <img class="w-100" src="images/tablet2.png">
+                     <span class="font1 text-primary"> New </span>
+                     <p> HONOR Pad 8 </p>
+                    </div>
+                    <div class="col-2 col-md-3 offset"></div>
+                    <div class="d-flex">
+                      <i class="me-2 bi bi-grid text-black"></i>
+                      <p> More Products </p>
+                    </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item  border-0 border-bottom">
+              <h2 class="accordion-header" id="headingfour">
+                <button class="accordion-button collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  Wearables
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-center">
+                  <div class=" d-flex flex-wrap justify-content-center">
+                   <div class="col-2 d-sm-none offset"></div>
+                   <div class="col-3 col-sm-2">
+                    <img class="w-100" src="images/wear1.png">
+                    <p> HONOR Watch GS 3 </p>
+                   </div>
+                   <div class="col-2 col-sm-1 offset"></div>
+                   <div class="col-3 col-sm-2">
+                    <img class="w-100" src="images/wear2.png">
+                    <p> HONOR Watch GS Pro </p>
+                   </div>
+                   <div class="col-2 col-sm-1 offset"></div>
+                   <div class="col-3 col-sm-2">
+                     <img class="w-100" src="images/wear3.png">
+                     <p> HONOR Band 6 </p>
+                   </div>
+                   <div class="col-2 col-sm-1 offset"></div>
+                   <div class="col-3 col-sm-2">
+                    <img class="w-100" src="images/wear4.png">
+                    <p> HONOR Watch ES </p>
+                   </div>
+                  </div>
+                  <div class="d-flex flex-column align-items-center">
+                   <div class="d-flex">
+                     <i class="me-2 bi bi-grid text-black"></i>
+                     <p> More Products </p>
+                   </div>
+                  </div>
+                 </div>
+              </div>
+            </div>
+
+            <div class="accordion-item  border-0 border-bottom">
+              <h2 class="accordion-header" id="headingfive">
+                <button class="accordion-button collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  More Products
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-center">
+                  <div class=" d-flex flex-wrap justify-content-center">
+                   <div class="col-2 offset"></div>
+                   <div class="col-3">
+                    <img class="w-100" src="images/router.png">
+                    <p> HONOR Router 3 </p>
+                   </div>
+                   <div class="col-7 offset"></div>
+                  <div class="d-flex flex-column align-items-center">
+                   <div class="d-flex">
+                     <i class="me-2 bi bi-grid text-black"></i>
+                     <p> More Products </p>
+                   </div>
+                  </div>
+                 </div>
+              </div>
+            </div>
+
+            <div class="accordion-item  border-0 border-bottom">
+              <h2 class="accordion-header" id="headingsix">
+                <div class="accordion-button noafter collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                  Club
+                </div>
+              </h2>
+            </div>
+
+            <div class="accordion-item  border-0 border-bottom">
+              <h2 class="accordion-header" id="headingseven">
+                <div class="accordion-button noafter collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                  Support
+                </div>
+              </h2>
+            </div>
+
+            <div class="accordion-item  border-0 border-bottom">
+              <h2 class="accordion-header" id="headingeight">
+                <button class="accordion-button collapsed bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                  Explore
+                </button>
+              </h2>
+              <div id="collapseeight" class="accordion-collapse collapse" aria-labelledby="headingeight" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-center">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item border-0 border-bottom">
+                      <h2 class="accordion-header" id="headingnine">
+                        <button class="accordion-button bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine" aria-expanded="true" aria-controls="collapsenine">
+                          ABOUT HONOR
+                        </button>
+                      </h2>
+                      <div id="collapsenine" class="accordion-collapse collapse" aria-labelledby="headingnine" data-bs-parent="#accordionExample">
+                        <div class="accordion-body d-flex flex-column align-items-start">
+                          <a href="#" class="text-decoration-none text-secondary"> About us </a>
+                          <a href="#" class="text-decoration-none text-secondary py-3"> News </a>
+                          <a href="#" class="text-decoration-none text-secondary"> Blog </a>
+                          <a href="#" class="text-decoration-none text-secondary py-3"> HONOR ESG </a>
+                          <a href="#" class="text-decoration-none text-secondary"> Theme Song </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item border-0 border-bottom">
+                      <h2 class="accordion-header" id="headingten">
+                        <button class="accordion-button bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseten" aria-expanded="true" aria-controls="collapseten">
+                          Events
+                        </button>
+                      </h2>
+                      <div id="collapseten" class="accordion-collapse collapse" aria-labelledby="headingten" data-bs-parent="#accordionExample">
+                        <div class="accordion-body d-flex flex-column align-items-start">
+                          <a href="#" class="text-decoration-none text-secondary"> HONOR Talents </a>
+                          <a href="#" class="text-decoration-none text-secondary py-3"> HONOR Magic Moments Awards </a>
+                          <a href="#" class="text-decoration-none text-secondary"> HONOR IFA 2022 Review </a>
+                          <a href="#" class="text-decoration-none text-secondary py-3"> HONOR Connect </a>
+                          <a href="#" class="text-decoration-none text-secondary"> GATEWAY TO THE FUTURE </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex flex-column align-items-start my-5">
+              <div class="d-flex my-2">
+                <i class="bi bi-person text-blacks mx-3"></i>
+                <a href="#" class="text-black text-decoration-none"> My Account </a>
+              </div>
+              <div class="d-flex my-2">
+                <i class="bi bi-globe text-blacks mx-3"></i>
+                <a href="#" class="text-black text-decoration-none"> Global </a>
+              </div>
+              <div class="d-flex my-2">
+                <i class="bi bi-person-circle text-primary mx-3"></i>
+                <a href="#" class="text-primary text-decoration-none mb-5"> Login/Register </a>
+              </div>
+             </div>
+
+          </div>
+         </div>
+       </div>
+      </div>
+     </div>
     </div>
 
   </div>
 
+  <div class="fixed"></div>
 
   <div class="row">
 
@@ -116,7 +399,7 @@
    
   </div>
   
-<div class="row ">
+ <div class="row ">
     
   <div class="col-12 bg-black px-3 py-5 text-center text-md-start">
     <div class="bg d-flex flex-column justify-content-end justify-content-md-center pb-5 ps-md-5">
@@ -207,7 +490,7 @@
 
     <div class="accordion-item border-0 border-bottom border-secondary">
       <h2 class="accordion-header" id="panelsStayOpen-headingfour">
-        <button class="accordion-button text-white bg-black px-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        <button class="accordion-button text-white bg-black px-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="true" aria-controls="panelsStayOpen-collapsefour">
           Support
         </button>
       </h2>
@@ -223,7 +506,7 @@
 
     <div class="accordion-item border-0 border-bottom border-secondary rounded-0">
       <h2 class="accordion-header" id="panelsStayOpen-headingfive">
-        <button class="accordion-button collapsed text-white bg-black px-0 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        <button class="accordion-button collapsed text-white bg-black px-0 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapsefive">
           Quick Link
         </button>
       </h2>
@@ -326,17 +609,14 @@
     </div>
   </div>
 
-
-  
-</div>
+ </div>
 
 
 
 
 
 
-</div>
-
+ </div>
 </body>
 
 </html>
