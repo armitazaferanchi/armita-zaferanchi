@@ -5,9 +5,10 @@
 
 body{
     font-family: av;
+    scroll-behavior: smooth;
 }
 
-.fixed{
+#fixed{
     height: 106px;
 }
 
