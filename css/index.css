@@ -57,6 +57,10 @@ body{
     display: none;
 }
 
+.dropstart .dropdown-toggle::before{
+    display: none;
+}
+
 .font1{
     font-size: 8px;
 }
