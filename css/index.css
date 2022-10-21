@@ -3,13 +3,37 @@
     src: url(../fonts/av.otf);
 }
 
+@keyframes animation {
+  from   { opacity: 0%; top:30px; }
+  to { opacity: 100%; top:0px; }
+}
+
 body{
     font-family: av;
     scroll-behavior: smooth;
 }
 
+.header{
+    z-index: 1000;
+}
+
+.header2{
+    z-index: 2000;
+}
+
 #fixed{
     height: 106px;
+}
+
+.animation{
+    position: relative;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+.transformicon:hover::before {
+    transform: translateX(5px);
+    transition: .4s ease;
 }
 
 .honorlogo{
